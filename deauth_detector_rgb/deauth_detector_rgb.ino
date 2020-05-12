@@ -11,9 +11,9 @@ extern "C" {
 }
 
 // ===== SETTINGS ===== //
-#define LED_R 14           /* Red LED pin */
+#define LED_R 15           /* Red LED pin */
 #define LED_G 12           /* Green LED pin */
-#define LED_B 4            /* Blue LED pin */
+#define LED_B 13            /* Blue LED pin */
 #define SERIAL_BAUD 115200 /* Baudrate for serial communication */
 #define CH_TIME 140        /* Scan time (in ms) per channel */
 #define PKT_RATE 5         /* Min. packets before it gets recognized as an attack */
